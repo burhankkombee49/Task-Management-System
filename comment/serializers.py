@@ -14,4 +14,4 @@ class CommentSerializer(serializers.ModelSerializer):
             'content',
             'created_at'
         ]
-        read_only_fields = ['author', 'created_at', 'task']
+        read_only_fields = ['author', 'created_at']
